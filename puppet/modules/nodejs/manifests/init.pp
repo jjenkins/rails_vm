@@ -13,7 +13,7 @@ class nodejs {
       "download":
           path => ["/bin", "/usr/bin", "/usr/local/bin"],
           cwd => "/usr/local/src",
-          command => "wget http://nodejs.org/dist/node-v0.6.15.tar.gz",
+          command => "wget http://nodejs.org/dist/v0.6.15/node-v0.6.15.tar.gz",
           creates => "/usr/local/src/node-v0.6.15.tar.gz",
     }
 
