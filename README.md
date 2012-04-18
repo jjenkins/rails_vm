@@ -31,6 +31,7 @@ $ vagrant up
 Use rvm to install the recommended version of Ruby and make it your default:
 
 <pre>
+$ vagrant ssh
 $ rvm install ruby-1.9.3-p125
 $ rvm --default use ruby-1.9.3-p125
 $ ruby -v
