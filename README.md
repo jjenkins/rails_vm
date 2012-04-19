@@ -45,7 +45,7 @@ $ gem update --system
 </pre>
 
 ## Update Rake
-Update to the newest version of Rake before you install Rails 3.2.
+Update to the newest version of Rake before you install Rails.
 
 <pre>
 $ gem update rake
