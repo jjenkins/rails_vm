@@ -31,3 +31,4 @@ class doinstall {
 
 include doinstall
 include nodejs
+include ruby

@@ -27,12 +27,11 @@ $ git submodule update
 $ vagrant up
 </pre>
 
-## Install Ruby 1.9.3
-Use rvm to install the recommended version of Ruby and make it your default:
+## Setup Ruby
+Log in to you virtual machine and use rvm to set the default version of Ruby:
 
 <pre>
 $ vagrant ssh
-$ rvm install ruby-1.9.3-p125
 $ rvm --default use ruby-1.9.3-p125
 $ ruby -v
 </pre>
